@@ -1,0 +1,408 @@
+/* -------------------------NAVBER--------------------------- */
+#one::after {
+  content: "";
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 15%;
+  top: 90%;
+}
+/* #two::after {
+  content: "";
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 15%;
+  top: 90%;
+  opacity: 0;
+}
+#two {
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+#two:hover #two::after {
+  opacity: 1;
+} */
+/* -------------------------HEADER--------------------------- */
+header {
+  background-image: url(../img/intro-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+header h1 {
+  font-size: 72px;
+}
+header .typing::after {
+  content: "|";
+  animation: type 3s alternate infinite;
+  -webkit-animation: type 3s alternate infinite;
+}
+@keyframes type {
+  0% {
+    content: " F";
+  }
+  4% {
+    content: " Fr";
+  }
+  8% {
+    content: " Fro";
+  }
+  12% {
+    content: " Fron";
+  }
+  16% {
+    content: " Front";
+  }
+  20% {
+    content: " Fronte";
+  }
+  24% {
+    content: " Fronten";
+  }
+  28% {
+    content: " Frontend";
+  }
+  32% {
+    content: " Frontend D";
+  }
+  36% {
+    content: " Frontend Dev";
+  }
+  40% {
+    content: " Frontend Devel";
+  }
+  44% {
+    content: " Frontend Develop";
+  }
+  48% {
+    content: " Frontend Developer";
+  }
+  52% {
+    content: " Frontend Develop";
+  }
+  56% {
+    content: " Frontend Devel";
+  }
+  60% {
+    content: " Frontend Dev";
+  }
+  64% {
+    content: " Frontenf D";
+  }
+  68% {
+    content: " Frontend";
+  }
+  72% {
+    content: " Fronten";
+  }
+  76% {
+    content: " Fronte";
+  }
+  80% {
+    content: " Front";
+  }
+  82% {
+    content: " Fron";
+  }
+  86% {
+    content: " Fro";
+  }
+  90% {
+    content: " Fr";
+  }
+  94% {
+    content: " F";
+  }
+  98% {
+    content: " |";
+  }
+}
+/* -------------------------ABOUT--------------------------- */
+.line::after {
+  content: "";
+  width: 110px;
+  height: 3px;
+  background-color: #0078ff;
+  position: absolute;
+  left: 0%;
+  top: 100%;
+}
+.progress {
+  background-color: #cde1f8;
+  margin: 10px 0 20px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.progress-bar {
+  background-color: #0078ff;
+}
+/* -------------------------SERVICE--------------------------- */
+.text h1 {
+  font-size: 50px;
+}
+.text p::after {
+  content: "";
+  width: 10%;
+  height: 5px;
+  background-color: #0078ff;
+  position: absolute;
+  top: 100%;
+  left: calc(90% / 2);
+}
+.card {
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#service .card:hover .icon {
+  background-color: #0078ff;
+  color: white;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+#service .service-icon .icon {
+  margin: auto;
+  font-size: 45px;
+  margin-bottom: 15px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 10px #0078ff;
+}
+/* -------------------------SERVICE2--------------------------- */
+#main {
+  background-image: url(../img/counters-bg.jpg);
+  position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-attachment: scroll;
+  padding: 8rem 0;
+}
+.blue-layer {
+  background-color: #0078ff;
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+#main .service-icon .icon2 {
+  margin: auto;
+  font-size: 35px;
+  margin-bottom: 15px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+/* -------------------------WORK--------------------------- */
+#work .card-body .text-color {
+  color: #4e4e4e;
+  font-size: 14px;
+}
+#work .card:hover .card-img-top {
+  transform: scale(1.3, 1.3);
+  -webkit-transform: scale(1.3, 1.3);
+  -moz-transform: scale(1.3, 1.3);
+  -ms-transform: scale(1.3, 1.3);
+  -o-transform: scale(1.3, 1.3);
+}
+#work .card .card-img-top {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+#work .service-icon .icon3 {
+  margin: auto;
+  font-size: 12px;
+  color: #0078ff;
+  margin-bottom: 15px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1px #0078ff;
+}
+#work .card-body button {
+  position: absolute;
+  right: 0%;
+  top: 20%;
+}
+#work .card-body button:hover {
+  box-shadow: none;
+}
+#work .modal-body img {
+  width: 100%;
+  height: 100%;
+}
+/* -------------------------WORK2--------------------------- */
+#main2 {
+  background-image: url(../img/overlay-bg.jpg);
+  position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-attachment: scroll;
+  padding: 8rem 0;
+}
+#main2 .icon {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #0078ff;
+  font-size: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* -------------------------BLOG--------------------------- */
+#blog .card-body .card-type {
+  position: absolute;
+  top: -30px;
+  left: 37%;
+  text-align: center;
+}
+#blog .card-body .card-type .card-type1 {
+  padding: 3px 10px;
+}
+#blog .card-body .card-type .card-type1 span {
+  font-size: 12px;
+  font-weight: 500;
+}
+#blog .card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+#blog .card-body p {
+  color: #4e4e4e;
+}
+#blog a {
+  color: black;
+  text-decoration: none;
+}
+#blog a:hover {
+  color: #0078ff;
+}
+#blog .card-body2 {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+#blog .card-body2 .image-resize {
+  width: 35px;
+  display: inline-block;
+}
+#blog .card-body2 .image-resize img {
+  width: 100%;
+}
+/* -------------------------CONTACT--------------------------- */
+#contact {
+  background-image: url(../img/overlay-bg.jpg);
+  position: center center;
+  background-size: cover;
+}
+form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+form button {
+  background-color: #0078ff;
+  color: white;
+  font-weight: 500;
+  padding: 17px 40px;
+  border: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+button:hover {
+  box-shadow: 0px 0px 0px 5px #cde1f8;
+}
+#contact .icons-inline {
+  width: 45%;
+}
+#contact .icon-blue i {
+  color: #0078ff;
+  font-size: 12px;
+  margin-right: 10px;
+}
+#contact .service-icon .icon {
+  font-size: 20px;
+  margin-bottom: 15px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 3px #0078ff;
+}
+#contact .service-icon:hover .icon {
+  background: #0078ff;
+  color: white;
+  box-shadow: 0 0 0 3px #cde1f8;
+}
+#contact .bold {
+  font-weight: 700;
+}
+@media screen and (max-width: 1200px) {
+  #contact .icons-inline {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #contact .icons-inline {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #contact .icons-inline {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 576px) {
+  #contact .icons-inline {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 576px) and (min-width: 0) {
+  #contact .icons-inline {
+    flex-direction: column;
+  }
+}
